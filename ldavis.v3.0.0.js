@@ -987,7 +987,7 @@ var LDAvis = function(to_select, data_or_file_name, color1, color2) {
                 .attr("class", "bubble-tool") //  set class so we can remove it when highlight_off is called
                 .style("text-anchor", "middle")
                 .style("font-size", "16px")
-                .text("Top-" + R + " Most Relevant Terms for Topic " + topics + " (" + Freq + "% of tokens)");
+                .text("Top-" + R + " Most Relevant Products for Merchant Type " + topics + " (" + Freq + "% of transactions)");
 
             // grab the bar-chart data for this topic only:
             var dat2 = lamData.filter(function(d) {
